@@ -1,0 +1,11 @@
+services:
+  ip-cam:
+    container_name: ip-cam-container
+    build: .
+    image: ip-cam-full:v1
+    ports:
+      - 80:80
+    expose:
+      - 80
+    networks:
+      - ipCamNetwork
