@@ -17,13 +17,18 @@ import { NavbarComponent } from './component/navbar/navbar.component';
 const routes: Routes = [
   {
     path: "",
-    // title: 'home',
+    title: 'home',
     component: HomeComponent
   },
   {
     path: "home",
-    // title: 'home',
+    title: 'home',
     component: HomeComponent
+  },
+  {
+    path: 'test',
+    title: 'test',
+    component: PlayerComponent
   },
   {
     path: "**", 
