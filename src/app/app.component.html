@@ -1,11 +1,25 @@
+<!-- <div class="navbar">
+  <app-navbar></app-navbar>
+</div>
 <main class="main">
   <div class="content">
+    <div class="router-container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</main> -->
+
+<html>
+  <body style="height: 100%; margin: 0;">
     <div class="navbar">
       <app-navbar></app-navbar>
     </div>
-    <div class="home-container">
-    </div>
-  </div>
-</main>
-<router-outlet></router-outlet>
-
+    <main class="main">
+      <div class="content">
+        <div class="router-container">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
