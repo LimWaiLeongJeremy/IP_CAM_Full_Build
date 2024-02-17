@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit{
   PA3_PA4_CAM_01: string = '';
   PA5_PA6_CAM_01: string = '';
 
-  playerWidth: number = 300;
+  playerWidth: number = 400;
 
   ngOnInit(): void {
     this.WDP01_CAM_01 = environent.WDP01_CAM_01;
