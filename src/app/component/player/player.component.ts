@@ -7,5 +7,9 @@ import { Component,Input } from '@angular/core';
 })
 export class PlayerComponent {
   @Input() ipAdd: String = '';
-  @Input() camName: string = '';
+  @Input() camName: String = '';
+  aspectRation: number = 16/9;
+  @Input() playerWidth: number = 0;
+  playerHeight: number = this.playerWidth / this.aspectRation;
+
 }
