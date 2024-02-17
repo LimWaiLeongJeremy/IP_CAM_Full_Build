@@ -7,4 +7,5 @@ import { Component,Input } from '@angular/core';
 })
 export class PlayerComponent {
   @Input() ipAdd: String = '';
+  @Input() camName: string = '';
 }
